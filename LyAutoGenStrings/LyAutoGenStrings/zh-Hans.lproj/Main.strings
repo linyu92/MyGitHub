@@ -1,0 +1,30 @@
+
+
+
+//##################################################################################
+//#           AutoGenStrings            2015-02-13 16:14:47
+//##################################################################################
+
+/* Class = "IBUILabel"; text = "2 Localzations栏添加中文和日文"; ObjectID = "3Id-ur-pja"; */
+"3Id-ur-pja.text" = "2 Localzations栏添加中文和日文";
+
+/* Class = "IBUILabel"; text = "3 把storyboard的English也勾上,这时候会多出几个storyboard的翻译文件"; ObjectID = "PH1-8o-zKQ"; */
+"PH1-8o-zKQ.text" = "3 把storyboard的English也勾上,这时候会多出几个storyboard的翻译文件";
+
+/* Class = "IBUILabel"; text = "3 复制该工程编写的Shell脚本，并将Run Only Install勾上"; ObjectID = "tj6-h0-dhH"; */
+"tj6-h0-dhH.text" = "3 复制该工程编写的Shell脚本，并将Run Only Install勾上";
+
+/* Class = "IBUILabel"; text = "1 点开工程project的Info"; ObjectID = "rjo-sp-lBv"; */
+"rjo-sp-lBv.text" = "1 点开工程project的Info";
+
+/* Class = "IBUILabel"; text = "2 添加一个Run Script"; ObjectID = "TBV-Wu-EbL"; */
+"TBV-Wu-EbL.text" = "2 添加一个Run Script";
+
+/* Class = "IBUILabel"; text = "添加脚本文件"; ObjectID = "sKA-o3-aB8"; */
+"sKA-o3-aB8.text" = "添加脚本文件";
+
+/* Class = "IBUILabel"; text = "1 点开工程target的Build Phases"; ObjectID = "Nl9-h1-gom"; */
+"Nl9-h1-gom.text" = "1 点开工程target的Build Phases";
+
+/* Class = "IBUILabel"; text = "添加语言"; ObjectID = "73q-rQ-V9u"; */
+"73q-rQ-V9u.text" = "添加语言";

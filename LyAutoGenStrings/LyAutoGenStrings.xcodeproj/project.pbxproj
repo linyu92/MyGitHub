@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739AEC581A8DE1A70097DDAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 739AEC571A8DE1A70097DDAE /* main.m */; };
+		739AEC5B1A8DE1A70097DDAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739AEC5A1A8DE1A70097DDAE /* AppDelegate.m */; };
+		739AEC5E1A8DE1A70097DDAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739AEC5D1A8DE1A70097DDAE /* ViewController.m */; };
+		739AEC611A8DE1A70097DDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739AEC5F1A8DE1A70097DDAE /* Main.storyboard */; };
+		739AEC631A8DE1A70097DDAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739AEC621A8DE1A70097DDAE /* Images.xcassets */; };
+		739AEC661A8DE1A70097DDAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739AEC641A8DE1A70097DDAE /* LaunchScreen.xib */; };
+		739AEC721A8DE1A70097DDAE /* LyAutoGenStringsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739AEC711A8DE1A70097DDAE /* LyAutoGenStringsTests.m */; };
+		739AEC7D1A8DE3960097DDAE /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 739AEC7C1A8DE3960097DDAE /* AutoGenStrings.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		739AEC6C1A8DE1A70097DDAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739AEC4A1A8DE1A70097DDAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739AEC511A8DE1A70097DDAE;
+			remoteInfo = LyAutoGenStrings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		739AEC521A8DE1A70097DDAE /* LyAutoGenStrings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyAutoGenStrings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		739AEC561A8DE1A70097DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739AEC571A8DE1A70097DDAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		739AEC591A8DE1A70097DDAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		739AEC5A1A8DE1A70097DDAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		739AEC5C1A8DE1A70097DDAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		739AEC5D1A8DE1A70097DDAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		739AEC601A8DE1A70097DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739AEC621A8DE1A70097DDAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		739AEC651A8DE1A70097DDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		739AEC6B1A8DE1A70097DDAE /* LyAutoGenStringsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyAutoGenStringsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		739AEC701A8DE1A70097DDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739AEC711A8DE1A70097DDAE /* LyAutoGenStringsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyAutoGenStringsTests.m; sourceTree = "<group>"; };
+		739AEC7C1A8DE3960097DDAE /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
+		739AEC801A8DE6900097DDAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		739AEC811A8DE6900097DDAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		739AEC821A8DE69C0097DDAE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		739AEC831A8DE69C0097DDAE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		739AEC851A8DE8690097DDAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739AEC4F1A8DE1A70097DDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739AEC681A8DE1A70097DDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739AEC491A8DE1A70097DDAE = {
+			isa = PBXGroup;
+			children = (
+				739AEC541A8DE1A70097DDAE /* LyAutoGenStrings */,
+				739AEC6E1A8DE1A70097DDAE /* LyAutoGenStringsTests */,
+				739AEC531A8DE1A70097DDAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739AEC531A8DE1A70097DDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC521A8DE1A70097DDAE /* LyAutoGenStrings.app */,
+				739AEC6B1A8DE1A70097DDAE /* LyAutoGenStringsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739AEC541A8DE1A70097DDAE /* LyAutoGenStrings */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC7B1A8DE3960097DDAE /* RunScript */,
+				739AEC591A8DE1A70097DDAE /* AppDelegate.h */,
+				739AEC5A1A8DE1A70097DDAE /* AppDelegate.m */,
+				739AEC5C1A8DE1A70097DDAE /* ViewController.h */,
+				739AEC5D1A8DE1A70097DDAE /* ViewController.m */,
+				739AEC5F1A8DE1A70097DDAE /* Main.storyboard */,
+				739AEC621A8DE1A70097DDAE /* Images.xcassets */,
+				739AEC641A8DE1A70097DDAE /* LaunchScreen.xib */,
+				739AEC551A8DE1A70097DDAE /* Supporting Files */,
+			);
+			path = LyAutoGenStrings;
+			sourceTree = "<group>";
+		};
+		739AEC551A8DE1A70097DDAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC561A8DE1A70097DDAE /* Info.plist */,
+				739AEC571A8DE1A70097DDAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		739AEC6E1A8DE1A70097DDAE /* LyAutoGenStringsTests */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC711A8DE1A70097DDAE /* LyAutoGenStringsTests.m */,
+				739AEC6F1A8DE1A70097DDAE /* Supporting Files */,
+			);
+			path = LyAutoGenStringsTests;
+			sourceTree = "<group>";
+		};
+		739AEC6F1A8DE1A70097DDAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC701A8DE1A70097DDAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		739AEC7B1A8DE3960097DDAE /* RunScript */ = {
+			isa = PBXGroup;
+			children = (
+				739AEC7C1A8DE3960097DDAE /* AutoGenStrings.py */,
+			);
+			path = RunScript;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739AEC511A8DE1A70097DDAE /* LyAutoGenStrings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739AEC751A8DE1A70097DDAE /* Build configuration list for PBXNativeTarget "LyAutoGenStrings" */;
+			buildPhases = (
+				739AEC4E1A8DE1A70097DDAE /* Sources */,
+				739AEC4F1A8DE1A70097DDAE /* Frameworks */,
+				739AEC501A8DE1A70097DDAE /* Resources */,
+				739AEC7E1A8DE41D0097DDAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyAutoGenStrings;
+			productName = LyAutoGenStrings;
+			productReference = 739AEC521A8DE1A70097DDAE /* LyAutoGenStrings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		739AEC6A1A8DE1A70097DDAE /* LyAutoGenStringsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739AEC781A8DE1A70097DDAE /* Build configuration list for PBXNativeTarget "LyAutoGenStringsTests" */;
+			buildPhases = (
+				739AEC671A8DE1A70097DDAE /* Sources */,
+				739AEC681A8DE1A70097DDAE /* Frameworks */,
+				739AEC691A8DE1A70097DDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739AEC6D1A8DE1A70097DDAE /* PBXTargetDependency */,
+			);
+			name = LyAutoGenStringsTests;
+			productName = LyAutoGenStringsTests;
+			productReference = 739AEC6B1A8DE1A70097DDAE /* LyAutoGenStringsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739AEC4A1A8DE1A70097DDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = linyu;
+				TargetAttributes = {
+					739AEC511A8DE1A70097DDAE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					739AEC6A1A8DE1A70097DDAE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 739AEC511A8DE1A70097DDAE;
+					};
+				};
+			};
+			buildConfigurationList = 739AEC4D1A8DE1A70097DDAE /* Build configuration list for PBXProject "LyAutoGenStrings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739AEC491A8DE1A70097DDAE;
+			productRefGroup = 739AEC531A8DE1A70097DDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739AEC511A8DE1A70097DDAE /* LyAutoGenStrings */,
+				739AEC6A1A8DE1A70097DDAE /* LyAutoGenStringsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739AEC501A8DE1A70097DDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739AEC611A8DE1A70097DDAE /* Main.storyboard in Resources */,
+				739AEC7D1A8DE3960097DDAE /* AutoGenStrings.py in Resources */,
+				739AEC661A8DE1A70097DDAE /* LaunchScreen.xib in Resources */,
+				739AEC631A8DE1A70097DDAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739AEC691A8DE1A70097DDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		739AEC7E1A8DE41D0097DDAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\npython ${SRCROOT}/${TARGET_NAME}/RunScript/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739AEC4E1A8DE1A70097DDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739AEC5E1A8DE1A70097DDAE /* ViewController.m in Sources */,
+				739AEC5B1A8DE1A70097DDAE /* AppDelegate.m in Sources */,
+				739AEC581A8DE1A70097DDAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739AEC671A8DE1A70097DDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739AEC721A8DE1A70097DDAE /* LyAutoGenStringsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		739AEC6D1A8DE1A70097DDAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739AEC511A8DE1A70097DDAE /* LyAutoGenStrings */;
+			targetProxy = 739AEC6C1A8DE1A70097DDAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		739AEC5F1A8DE1A70097DDAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739AEC601A8DE1A70097DDAE /* Base */,
+				739AEC801A8DE6900097DDAE /* zh-Hans */,
+				739AEC821A8DE69C0097DDAE /* ja */,
+				739AEC851A8DE8690097DDAE /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		739AEC641A8DE1A70097DDAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739AEC651A8DE1A70097DDAE /* Base */,
+				739AEC811A8DE6900097DDAE /* zh-Hans */,
+				739AEC831A8DE69C0097DDAE /* ja */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739AEC731A8DE1A70097DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		739AEC741A8DE1A70097DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739AEC761A8DE1A70097DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				INFOPLIST_FILE = LyAutoGenStrings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		739AEC771A8DE1A70097DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				INFOPLIST_FILE = LyAutoGenStrings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		739AEC791A8DE1A70097DDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyAutoGenStringsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyAutoGenStrings.app/LyAutoGenStrings";
+			};
+			name = Debug;
+		};
+		739AEC7A1A8DE1A70097DDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyAutoGenStringsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyAutoGenStrings.app/LyAutoGenStrings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739AEC4D1A8DE1A70097DDAE /* Build configuration list for PBXProject "LyAutoGenStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739AEC731A8DE1A70097DDAE /* Debug */,
+				739AEC741A8DE1A70097DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739AEC751A8DE1A70097DDAE /* Build configuration list for PBXNativeTarget "LyAutoGenStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739AEC761A8DE1A70097DDAE /* Debug */,
+				739AEC771A8DE1A70097DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		739AEC781A8DE1A70097DDAE /* Build configuration list for PBXNativeTarget "LyAutoGenStringsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739AEC791A8DE1A70097DDAE /* Debug */,
+				739AEC7A1A8DE1A70097DDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739AEC4A1A8DE1A70097DDAE /* Project object */;
+}
