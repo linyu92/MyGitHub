@@ -1,1 +1,45 @@
 
+
+//##################################################################################
+//#           AutoGenStrings            2015-02-13 16:45:49
+//##################################################################################
+
+/* Class = "IBUILabel"; text = "2 Localzations栏添加中文和日文"; ObjectID = "3Id-ur-pja"; */
+"3Id-ur-pja.text" = "2 add jans and chinese at Localzations";
+
+/* Class = "IBUILabel"; text = "3 把storyboard的English也勾上,这时候会多出几个storyboard的翻译文件"; ObjectID = "PH1-8o-zKQ"; */
+"PH1-8o-zKQ.text" = "3 check storyboard's English checkbox at localiztion";
+
+/* Class = "IBUILabel"; text = "3 复制该工程编写的Shell脚本，并将Run Only Install勾上"; ObjectID = "tj6-h0-dhH"; */
+"tj6-h0-dhH.text" = "3 copy the Shell script to your project and check Run Only Install";
+
+/* Class = "IBUILabel"; text = "1 点开工程project的Info"; ObjectID = "rjo-sp-lBv"; */
+"rjo-sp-lBv.text" = "1 project->Info";
+
+/* Class = "IBUILabel"; text = "2 添加一个Run Script"; ObjectID = "TBV-Wu-EbL"; */
+"TBV-Wu-EbL.text" = "2 add a Run Script";
+
+/* Class = "IBUILabel"; text = "添加脚本文件"; ObjectID = "sKA-o3-aB8"; */
+"sKA-o3-aB8.text" = "Add script";
+
+/* Class = "IBUILabel"; text = "1 点开工程target的Build Phases"; ObjectID = "Nl9-h1-gom"; */
+"Nl9-h1-gom.text" = "1 target->Build Phases";
+
+/* Class = "IBUILabel"; text = "添加语言"; ObjectID = "73q-rQ-V9u"; */
+"73q-rQ-V9u.text" = "Set Localizations";
+
+//##################################################################################
+//#           AutoGenStrings            2015-02-13 17:17:01
+//##################################################################################
+
+/* Class = "IBUILabel"; text = "执行脚本文件"; ObjectID = "Isp-T0-8Ti"; */
+"Isp-T0-8Ti.text" = "run your shell";
+
+/* Class = "IBUILabel"; text = "2 将deployment location和deployment postprocessing设为YES"; ObjectID = "uqy-Mi-3Ud"; */
+"uqy-Mi-3Ud.text" = "2 set Deployment Location and Deployment Postprocessing YES";
+
+/* Class = "IBUILabel"; text = "3 build完后将上面两项置为NO,检查翻译文件"; ObjectID = "En8-3g-Zgr"; */
+"En8-3g-Zgr.text" = "3 set two items mentioned above NO and check your storyboard strings";
+
+/* Class = "IBUILabel"; text = "1 点开工程target的Build setting的deployment项"; ObjectID = "btk-eY-nVy"; */
+"btk-eY-nVy.text" = "1 target->Build setting->Deployment";

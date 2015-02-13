@@ -455,6 +455,7 @@
 				739AEC771A8DE1A70097DDAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		739AEC781A8DE1A70097DDAE /* Build configuration list for PBXNativeTarget "LyAutoGenStringsTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +464,7 @@
 				739AEC7A1A8DE1A70097DDAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

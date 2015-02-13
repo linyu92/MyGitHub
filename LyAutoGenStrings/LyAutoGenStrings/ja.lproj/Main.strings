@@ -28,3 +28,19 @@
 
 /* Class = "IBUILabel"; text = "添加语言"; ObjectID = "73q-rQ-V9u"; */
 "73q-rQ-V9u.text" = "添加语言";
+
+//##################################################################################
+//#           AutoGenStrings            2015-02-13 17:17:01
+//##################################################################################
+
+/* Class = "IBUILabel"; text = "执行脚本文件"; ObjectID = "Isp-T0-8Ti"; */
+"Isp-T0-8Ti.text" = "执行脚本文件";
+
+/* Class = "IBUILabel"; text = "2 将deployment location和deployment postprocessing设为YES"; ObjectID = "uqy-Mi-3Ud"; */
+"uqy-Mi-3Ud.text" = "2 将deployment location和deployment postprocessing设为YES";
+
+/* Class = "IBUILabel"; text = "3 build完后将上面两项置为NO,检查翻译文件"; ObjectID = "En8-3g-Zgr"; */
+"En8-3g-Zgr.text" = "3 build完后将上面两项置为NO,检查翻译文件";
+
+/* Class = "IBUILabel"; text = "1 点开工程target的Build setting的deployment项"; ObjectID = "btk-eY-nVy"; */
+"btk-eY-nVy.text" = "1 点开工程target的Build setting的deployment项";

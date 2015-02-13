@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
-#国际化处理 为所有中文字符串添加 nslocalizedString 
 
 """
 untitled.py
 
-Created by linyu on 2014-12-05.
-Copyright (c) 2014 __MyCompanyName__. All rights reserved.
+Created by linyu on 2015-02-13.
+Copyright (c) 2015 __MyCompanyName__. All rights reserved.
 """
 
 import imp 
@@ -24,7 +23,7 @@ KSourceFile = 'Base.lproj/*.storyboard'
 
 KTargetFile = '*.lproj/*.strings'  
 
-KGenerateStringsFile = './New.strings'
+KGenerateStringsFile = 'TempfileOfStoryboardNew.strings'
 
 ColonRegex = ur'["](.*?)["]'
 
@@ -147,8 +146,8 @@ def extractFilePrefix(file_path):
 	prefix =  seg[lastindex].split('.')[0]
 	return prefix
 
-def generateStoryboardStringsfile(storyboard_path):
-	cmdstring = 'ibtool '+storyboard_path+' --generate-strings-file '+KGenerateStringsFile
+def generateStoryboardStringsfile(storyboard_path,tempstrings_path):
+	cmdstring = 'ibtool '+storyboard_path+' --generate-strings-file '+tempstrings_path
 	if os.system(cmdstring) == 0:
 		return 1
 
@@ -161,6 +160,7 @@ def main():
 		return
 	targetFilePath = filePath + '/' + KTargetFile
 	targetFile_list = glob.glob(targetFilePath)
+	tempFile_Path = filePath + '/' + KGenerateStringsFile
 	if len(targetFile_list) == 0:
 		print 'error framework , no .lproj dic was found'
 		return
@@ -168,16 +168,16 @@ def main():
 		sourceprefix = extractFilePrefix(sourcePath)
 		sourcename = extractFileName(sourcePath)
 		print 'init with %s'%sourcename
-		if generateStoryboardStringsfile(sourcePath) == 1:
+		if generateStoryboardStringsfile(sourcePath,tempFile_Path) == 1:
 			print '- - genstrings %s successfully'%sourcename
 			for targetPath in targetFile_list:
 				targetprefix = extractFilePrefix(targetPath)
 				targetname = extractFileName(targetPath) 
 				if cmp(sourceprefix,targetprefix) == 0:
 					print '- - dealing with %s'%targetPath
-					compareWithFilePath(KGenerateStringsFile,targetPath)
+					compareWithFilePath(tempFile_Path,targetPath)
 			print 'finish with %s'%sourcename
-			os.remove(KGenerateStringsFile)
+			os.remove(tempFile_Path)
 		else:
 			print '- - genstrings %s error'%sourcename
 
